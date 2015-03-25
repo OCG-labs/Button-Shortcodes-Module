@@ -14,7 +14,7 @@ class AdditionalFunction extends module {
         extract( shortcode_atts(array(
           'color' => 'default',
           'url' => '/',
-          'target' => 'self',
+          'target' => '_self',
           'title' => 'More Info',
           'anchor' => 'false'
         ), $atts ) );
