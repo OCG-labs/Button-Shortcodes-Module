@@ -2,24 +2,32 @@
 
 [button color="default" url="#" target="_self" title="More Info" anchor="false"]
 
-color
+###color
 Uses bootstrap btn color conventions "btn-default, btn-warning, ect.."
+
 default = "default"
 
-url 
+###url 
 href attribute for link
+
 default = "#"
 
-target 
+###target 
 target attribute for link
+
 _blank|_self|_parent|_top|framename
+
 default = "_self"
 
-title
+###title
 Title of the link, this is what is displayed on the frontend of the site
+
 default = "More Info"
 
-anchor (bool)
+###anchor (bool)
+
 *This requires Smoothscroll Module to be installed. 
+
 This addes the smoothscroll class to the class attribute on the link. 
+
 default = "false"
